@@ -6,7 +6,6 @@
 * [Marc Carrascosa](https://www.upf.edu/web/wnrg/entry/-/-/74118/adscripcion/marc-carrascosa)
 * [Boris Bellalta](http://www.dtic.upf.edu/~bbellalt/)
 * [Cristina Cano](http://ccanobs.github.io/)
-* [Anders Jonsson](http://www.tecn.upf.es/~jonsson/)
 * [Vishnu Ram](https://www.researchgate.net/profile/Vishnu_Ov)
 
 ### Abstract
@@ -25,9 +24,9 @@ Besides, this repository contains the matlab scripts used to process the results
 ### Testbed configuration
 
 The testbed consists in two Basic Service Sets (BSSs), which operate at the same frequency channel and potentially interfere with each other. Each BSS is composed by an AP and a STA, to which traffic is delivered in a downlink manner through UDP traffic. The testbed is depicted in the following picture:
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/testbed_details.pdf"
-	title="Testbed details" width="500" />
-
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/testbed_details.png" alt="Testbed details"
+	title="STestbed details" width="500" />
+	
 The following Table summarizes the characteristics of the considered WLAN testbed:
 
 | **Parameter**          | **Value**        		  |
@@ -67,7 +66,7 @@ In order to characterize the testbed deployment through simulations, we have use
 
 To improve the performance of the proposed testbed, we simulate a Multi-Armed Bandits (MABs) application for Transmit Power Control (TPC), as previously done in [1]. We take an online learning approach because spatial interactions in WLANs are complex, and the effect of tuning the transmit power is not evident [2]. Accordingly, the MABs framework is useful to reduce the complexity of the problem and effectively improving the performance at a low computational cost. The MABs formulation for the transmit power control problem is described the following Algorithm:
 
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/mabs_algorithm_obss.png" alt="Implementation of MABs in an OBSS"
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/mabs_algorithm_obss.png" alt="Implementation of MABs in an OBSS"
 	title="Implementation of MABs in an OBSS" width="500" />
 
 This use case is particularly revealing since the transmit power is a delicate parameter to be freely adjusted, and trying several configurations before finding the best performance may lead to unpredictable effects during the transitory regime. Moreover, commercial equipments typically offer a high delay when changing the transmit power or other parameters such as the primary channel. As a result, network simulators can play a crucial role in palliating the negative impact that exploration can have in communications.
@@ -77,7 +76,7 @@ This use case is particularly revealing since the transmit power is a delicate p
 ## Simulation Results
 
 The following figure illustrates the temporal throughput obtained by each BSS when simulating the MABs approach for tuning the transmit power. 
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/throughput_evolution_komondor.png" alt="Simulation results of applying MABs for tuning the transmit power. Temporal throughput evolution obtained by each BSS"
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/throughput_evolution_komondor.png" alt="Simulation results of applying MABs for tuning the transmit power. Temporal throughput evolution obtained by each BSS"
 	title="Simulation results of applying MABs for tuning the transmit power. Temporal throughput evolution obtained by each BSS" width="500" />
 
 As shown, both BSSs experience an unstable transitory regime before reaching a stable state whereby performance is improved. 
@@ -91,7 +90,7 @@ The resulting probabilities of selecting each transmit power level are collected
 The most popular transmit power for both BSSs is 7 dBm, which is expected to improve their performance.
 
 Besides, we provide some insights on the time it takes the simulator to bring up results for the testbed. To include the operation of simulators in future networks (especially for real-time applications), it is very important to find an equilibrium between the stability of the output and the time it takes to generate it. The following figure shows the variability obtained on the simulation results, for different simulation time values. The execution time is also displayed. 
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/test_sim_time_vs_accuracy.png" alt="Execution time versus accuracy in Komondor simulator"
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/test_sim_time_vs_accuracy.png" alt="Execution time versus accuracy in Komondor simulator"
 	title="Execution time versus accuracy in Komondor simulator" width="500" />
 
 As observed, the more the higher the simulation time, the higher the stability is. However, this is paid with execution time, which varies according to the simulator.
@@ -99,19 +98,19 @@ As observed, the more the higher the simulation time, the higher the stability i
 ## Testbed Results
 
 The following figure shows the impact of applying the configuration suggested by the simulator on the testbed.
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/boxplotbps.png" alt="Boxplot of the throughput per second obtained by each BSS, for each configuration (23 dBm and 7 dBm)"
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/boxplotbps.png" alt="Boxplot of the throughput per second obtained by each BSS, for each configuration (23 dBm and 7 dBm)"
 	title="Boxplot of the throughput per second obtained by each BSS, for each configuration (23 dBm and 7 dBm)" width="500" />
 
 Alternatively, the temporal throughput achieved by each BSS is shown:
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/AP1_AP2_ALL.png" alt="Temporal throughput experienced by each BSS, for each configuration (23 dBm and 7 dBm)"
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/AP1_AP2_ALL.png" alt="Temporal throughput experienced by each BSS, for each configuration (23 dBm and 7 dBm)"
 	title="Temporal throughput experienced by each BSS, for each configuration (23 dBm and 7 dBm)" width="500" />
 
 As observed, a significant gain is provided to the throughput that both BSSs experience. Note, as well, that BSS2 suffers sudden drops in throughput, which is originated by the high channel variability found at that location. Furthermore, the improved configuration grants more stability to the throughput obtained (especially for BSS1).
 
 To conclude, the following figures show the sensed power in AP2's location, when using both configurations (23 dBm and 7 dBm):
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/spectrum_23dBm.png" alt="Spectrum utilization from BSS2's perspective with Tx Power = 23 dBm (captured with Aaronia Spectrum Analyzer)"
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/spectrum_23dBm.png" alt="Spectrum utilization from BSS2's perspective with Tx Power = 23 dBm (captured with Aaronia Spectrum Analyzer)"
 	title="Spectrum utilization from BSS2's perspective with Tx Power = 23 dBm (captured with Aaronia Spectrum Analyzer)" width="500" />
-<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/Images/spectrum_7dBm.png" alt="Spectrum utilization from BSS2's perspective with Tx Power = 7 dBm (captured with Aaronia Spectrum Analyzer)"
+<img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/spectrum_7dBm.png" alt="Spectrum utilization from BSS2's perspective with Tx Power = 7 dBm (captured with Aaronia Spectrum Analyzer)"
 	title="Spectrum utilization from BSS2's perspective with Tx Power = 7 dBm (captured with Aaronia Spectrum Analyzer)" width="500" />	
 
 As it can be observed, AP2 spends a significant portion of the time contending for the channel. This is due to the signal received from AP1 when using the default configuration of 23 dBm. Notice that the strongest power measurements (>-50 dBm) refer to AP2's transmissions, while the rest of measurements indicate that some other devices are transmitting. In contrast, when applying the configuration suggested by the simulator (7 dBm), a much higher channel occupancy is experienced in BSS2. Similar results can be obtained from BSS1.
