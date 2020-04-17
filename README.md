@@ -1,14 +1,14 @@
 # usage_of_simulators_in_future_networks
 [Magazine paper] Usage of simulators in future 5G/6G networks
 
-### Authors
+## Authors
 * [Francesc Wilhelmi](https://fwilhelmi.github.io/)
 * [Marc Carrascosa](https://www.upf.edu/web/wnrg/entry/-/-/74118/adscripcion/marc-carrascosa)
 * [Boris Bellalta](http://www.dtic.upf.edu/~bbellalt/)
 * [Cristina Cano](http://ccanobs.github.io/)
 * [Vishnu Ram](https://www.researchgate.net/profile/Vishnu_Ov)
 
-### Abstract
+## Abstract
 Without any doubt, Machine Learning (ML) will be an important driver of future communications due to its foreseen productivity gains in front of complex problems. However, the application of ML to networking systems raises concerns among network operators and other stakeholders, especially regarding trustworthiness and reliability. In this paper, we devise the role of network simulators for bridging the gap between ML and communications systems. Network simulators can facilitate the adoption of ML-based solutions to networks by training, testing, and validating ML models before being applied to a live network. Finally, we showcase the potential benefits of integrating network simulators into ML-assisted communications through a proof-of-concept testbed implementation of a residential Wi-Fi network. 
 
 ### Repository description
@@ -21,7 +21,7 @@ This repository contains the files obtained from both the Komondor simulator and
 
 Besides, this repository contains the matlab scripts used to process the results and plot the figures included in the paper "Usage of Network Simulators in Macchine-Learning-Assisted 5G/6G Networks".
 
-### Testbed configuration
+## Testbed configuration
 
 The testbed consists in two Basic Service Sets (BSSs), which operate at the same frequency channel and potentially interfere with each other. Each BSS is composed by an AP and a STA, to which traffic is delivered in a downlink manner through UDP traffic. The testbed is depicted in the following picture:
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/testbed_details.png" alt="Testbed details"
@@ -43,9 +43,9 @@ To capture the traffic and get further details about the performance of both BSS
 * [Iperf](https://www.wireshark.org/): used to generate UDP traffic from the AP to its associated STA.
 * [Aaronia spectrum analyzer HF-60100 V4 X](http://spectran-developer.net/web/index.php?id=9&L=1): used to analyze the power sensed by AP2.
 
-### Simulation configuration
+## Simulation configuration
 
-In order to characterize the testbed deployment through simulations, we have used the IEEE 802.11ax-oriented [Komondor simulator](https://github.com/wn-upf/Komondor) (commit: [7d5e955](https://github.com/wn-upf/Komondor/commit/7d5e955448206cde3a839b9105823b4c0b4d3210)]). The simulation parameters derived from the testbed are as follows:
+In order to characterize the testbed deployment through simulations, we have used the IEEE 802.11ax-oriented [Komondor simulator](https://github.com/wn-upf/Komondor) (commit: [7d5e955](https://github.com/wn-upf/Komondor/commit/7d5e955448206cde3a839b9105823b4c0b4d3210)). The simulation parameters derived from the testbed are as follows:
 
 | **Parameter**               | **Value**                                                                                                                         |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ In order to characterize the testbed deployment through simulations, we have use
 | RTS / CTS length            | 160 / 112 bits                                                                                                                    |
 | MH / SF / TB / MD length    | 320 / 16 / 18 / 32 bits                                                                                                           |
 | Allowed data rates          | 14.4 to 173.4 Mbps                                                                                                                |
-### Online learning approach
+## Online learning approach
 
 To improve the performance of the proposed testbed, we simulate a Multi-Armed Bandits (MABs) application for Transmit Power Control (TPC), as previously done in [1]. We take an online learning approach because spatial interactions in WLANs are complex, and the effect of tuning the transmit power is not evident [2]. Accordingly, the MABs framework is useful to reduce the complexity of the problem and effectively improving the performance at a low computational cost. The MABs formulation for the transmit power control problem is described the following Algorithm:
 
@@ -71,9 +71,9 @@ To improve the performance of the proposed testbed, we simulate a Multi-Armed Ba
 
 This use case is particularly revealing since the transmit power is a delicate parameter to be freely adjusted, and trying several configurations before finding the best performance may lead to unpredictable effects during the transitory regime. Moreover, commercial equipments typically offer a high delay when changing the transmit power or other parameters such as the primary channel. As a result, network simulators can play a crucial role in palliating the negative impact that exploration can have in communications.
 
-### Results
+## Results
 
-## Simulation Results
+### Simulation Results
 
 The following figure illustrates the temporal throughput obtained by each BSS when simulating the MABs approach for tuning the transmit power. 
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/throughput_evolution_komondor.png" alt="Simulation results of applying MABs for tuning the transmit power. Temporal throughput evolution obtained by each BSS"
@@ -95,7 +95,7 @@ Besides, we provide some insights on the time it takes the simulator to bring up
 
 As observed, the more the higher the simulation time, the higher the stability is. However, this is paid with execution time, which varies according to the simulator.
 
-## Testbed Results
+### Testbed Results
 
 The following figure shows the impact of applying the configuration suggested by the simulator on the testbed.
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/boxplotbps.png" alt="Boxplot of the throughput per second obtained by each BSS, for each configuration (23 dBm and 7 dBm)"
@@ -108,18 +108,20 @@ Alternatively, the temporal throughput achieved by each BSS is shown:
 As observed, a significant gain is provided to the throughput that both BSSs experience. Note, as well, that BSS2 suffers sudden drops in throughput, which is originated by the high channel variability found at that location. Furthermore, the improved configuration grants more stability to the throughput obtained (especially for BSS1).
 
 To conclude, the following figures show the sensed power in AP2's location, when using both configurations (23 dBm and 7 dBm):
+
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/spectrum_23dBm.png" alt="Spectrum utilization from BSS2's perspective with Tx Power = 23 dBm (captured with Aaronia Spectrum Analyzer)"
 	title="Spectrum utilization from BSS2's perspective with Tx Power = 23 dBm (captured with Aaronia Spectrum Analyzer)" width="500" />
+	
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/spectrum_7dBm.png" alt="Spectrum utilization from BSS2's perspective with Tx Power = 7 dBm (captured with Aaronia Spectrum Analyzer)"
 	title="Spectrum utilization from BSS2's perspective with Tx Power = 7 dBm (captured with Aaronia Spectrum Analyzer)" width="500" />	
 
 As it can be observed, AP2 spends a significant portion of the time contending for the channel. This is due to the signal received from AP1 when using the default configuration of 23 dBm. Notice that the strongest power measurements (>-50 dBm) refer to AP2's transmissions, while the rest of measurements indicate that some other devices are transmitting. In contrast, when applying the configuration suggested by the simulator (7 dBm), a much higher channel occupancy is experienced in BSS2. Similar results can be obtained from BSS1.
 
-### References
+## References
 
 [1] [Wilhelmi, Francesc, et al. "Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in wlans." Journal of Network and Computer Applications 127 (2019): 26-42.](https://www.sciencedirect.com/science/article/pii/S1084804518303655?casa_token=mFbXkj8xZccAAAAA:mVsGn_FadNe7781JabtpXP9A4r_4T_6tfkrpOm93Q344iz9SgIsp9MZeTHEODBLEXvNqpZ1k)
 [2] [Wilhelmi, Francesc, et al. "Spatial Reuse in IEEE 802.11 ax WLANs." arXiv preprint arXiv:1907.04141 (2019).](https://arxiv.org/pdf/1907.04141.pdf)
 
-### Contribute
+## Contribute
 
 If you want to contribute, please contact to [francisco.wilhelmi@upf.edu](francisco.wilhelmi@upf.edu)
