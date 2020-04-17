@@ -24,6 +24,7 @@ Besides, this repository contains the matlab scripts used to process the results
 ## Testbed configuration
 
 The testbed consists in two Basic Service Sets (BSSs), which operate at the same frequency channel and potentially interfere with each other. Each BSS is composed by an AP and a STA, to which traffic is delivered in a downlink manner through UDP traffic. The testbed is depicted in the following picture:
+
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/testbed_details.png" alt="Testbed details"
 	title="STestbed details" width="500" />
 	
@@ -76,6 +77,7 @@ This use case is particularly revealing since the transmit power is a delicate p
 ### Simulation Results
 
 The following figure illustrates the temporal throughput obtained by each BSS when simulating the MABs approach for tuning the transmit power. 
+
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/throughput_evolution_komondor.png" alt="Simulation results of applying MABs for tuning the transmit power. Temporal throughput evolution obtained by each BSS"
 	title="Simulation results of applying MABs for tuning the transmit power. Temporal throughput evolution obtained by each BSS" width="500" />
 
@@ -90,6 +92,7 @@ The resulting probabilities of selecting each transmit power level are collected
 The most popular transmit power for both BSSs is 7 dBm, which is expected to improve their performance.
 
 Besides, we provide some insights on the time it takes the simulator to bring up results for the testbed. To include the operation of simulators in future networks (especially for real-time applications), it is very important to find an equilibrium between the stability of the output and the time it takes to generate it. The following figure shows the variability obtained on the simulation results, for different simulation time values. The execution time is also displayed. 
+
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/test_sim_time_vs_accuracy.png" alt="Execution time versus accuracy in Komondor simulator"
 	title="Execution time versus accuracy in Komondor simulator" width="500" />
 
@@ -98,10 +101,12 @@ As observed, the more the higher the simulation time, the higher the stability i
 ### Testbed Results
 
 The following figure shows the impact of applying the configuration suggested by the simulator on the testbed.
+
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/boxplotbps.png" alt="Boxplot of the throughput per second obtained by each BSS, for each configuration (23 dBm and 7 dBm)"
 	title="Boxplot of the throughput per second obtained by each BSS, for each configuration (23 dBm and 7 dBm)" width="500" />
 
 Alternatively, the temporal throughput achieved by each BSS is shown:
+
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/AP1_AP2_ALL.png" alt="Temporal throughput experienced by each BSS, for each configuration (23 dBm and 7 dBm)"
 	title="Temporal throughput experienced by each BSS, for each configuration (23 dBm and 7 dBm)" width="500" />
 
