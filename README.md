@@ -125,6 +125,7 @@ As it can be observed, AP2 spends a significant portion of the time contending f
 ## References
 
 [1] [Wilhelmi, Francesc, et al. "Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in wlans." Journal of Network and Computer Applications 127 (2019): 26-42.](https://www.sciencedirect.com/science/article/pii/S1084804518303655?casa_token=mFbXkj8xZccAAAAA:mVsGn_FadNe7781JabtpXP9A4r_4T_6tfkrpOm93Q344iz9SgIsp9MZeTHEODBLEXvNqpZ1k)
+
 [2] [Wilhelmi, Francesc, et al. "Spatial Reuse in IEEE 802.11 ax WLANs." arXiv preprint arXiv:1907.04141 (2019).](https://arxiv.org/pdf/1907.04141.pdf)
 
 ## Contribute
