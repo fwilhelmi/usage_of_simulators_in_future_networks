@@ -1,0 +1,24 @@
+root@OpenWrt:~# iperf -c 10.80.59.211 -u -b 10000000m -t 300
+------------------------------------------------------------
+Client connecting to 10.80.59.211, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 10.80.59.1 port 33298 connected with 10.80.59.211 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-300.0 sec  3.93 GBytes   113 Mbits/sec
+[  3] Sent 0 datagrams
+root@OpenWrt:~# 
+
+
+administrador@ws119785:~$ sudo iperf -u -s -e
+[sudo] password for administrador: 
+------------------------------------------------------------
+Server listening on UDP port 5001 with pid 3241
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  4] local 10.80.59.211 port 5001 connected with 10.80.59.1 port 33298
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS
+[  4] 0.00-466.34 sec  3.93 GBytes  72.4 Mbits/sec   0.127 ms    0/2870258 (0%) -/-/-/- ms 6154 pps
+
