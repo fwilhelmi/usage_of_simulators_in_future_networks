@@ -96,7 +96,7 @@ Besides, we provide some insights on the time it takes the simulator to bring up
 <img src="https://github.com/fwilhelmi/usage_of_simulators_in_future_networks/blob/master/Images/test_sim_time_vs_accuracy.png" alt="Execution time versus accuracy in Komondor simulator"
 	title="Execution time versus accuracy in Komondor simulator" width="500" />
 
-As observed, the more the higher the simulation time, the higher the stability is. However, this is paid with execution time, which varies according to the simulator.
+As observed, the higher the simulation time, the higher the stability is. However, this is paid with execution time, which varies according to the simulator.
 
 ### Testbed Results
 
