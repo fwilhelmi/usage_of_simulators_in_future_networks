@@ -4,9 +4,10 @@
 ## Authors
 * [Francesc Wilhelmi](https://fwilhelmi.github.io/)
 * [Marc Carrascosa](https://www.upf.edu/web/wnrg/entry/-/-/74118/adscripcion/marc-carrascosa)
-* [Boris Bellalta](http://www.dtic.upf.edu/~bbellalt/)
 * [Cristina Cano](http://ccanobs.github.io/)
+* [Anders Jonsson](https://www.upf.edu/web/anders-jonsson)
 * [Vishnu Ram](https://www.researchgate.net/profile/Vishnu_Ov)
+* [Boris Bellalta](https://www.upf.edu/web/boris-bellalta)
 
 ## Abstract
 Without any doubt, Machine Learning (ML) will be an important driver of future communications due to its foreseen productivity gains in front of complex problems. However, the application of ML to networking systems raises concerns among network operators and other stakeholders, especially regarding trustworthiness and reliability. In this paper, we devise the role of network simulators for bridging the gap between ML and communications systems. Network simulators can facilitate the adoption of ML-based solutions to networks by training, testing, and validating ML models before being applied to a live network. Finally, we showcase the potential benefits of integrating network simulators into ML-assisted communications through a proof-of-concept testbed implementation of a residential Wi-Fi network. 
