@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  20 AUG 2020 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  20 AUG 2020 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,7 +1106,7 @@ Here is how much of TeX's memory you used:
  13044 multiletter control sequences out of 15000+600000
  44822 words of font info for 91 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 42i,8n,40p,1164b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,1163b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
@@ -1114,7 +1114,7 @@ e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on usage_of_simulators_in_5G_6G.pdf (7 pages, 1288784 bytes).
+Output written on usage_of_simulators_in_5G_6G.pdf (7 pages, 1290569 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  288 compressed objects within 3 object streams
