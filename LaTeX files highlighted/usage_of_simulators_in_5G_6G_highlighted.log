@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  23 JAN 2021 07:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  30 OCT 2020 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**usage_of_simulators_in_5G_6G.tex
-(./usage_of_simulators_in_5G_6G.tex
+**usage_of_simulators_in_5G_6G_highlighted.tex
+(./usage_of_simulators_in_5G_6G_highlighted.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./IEEEtran.cls
@@ -940,8 +940,8 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(./usage_of_simulators_in_5G_6G.aux)
-\openout1 = `usage_of_simulators_in_5G_6G.aux'.
+(./usage_of_simulators_in_5G_6G_highlighted.aux)
+\openout1 = `usage_of_simulators_in_5G_6G_highlighted.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -980,9 +980,10 @@ LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
 
-(./usage_of_simulators_in_5G_6G.out) (./usage_of_simulators_in_5G_6G.out)
+(./usage_of_simulators_in_5G_6G_highlighted.out)
+(./usage_of_simulators_in_5G_6G_highlighted.out)
 \@outlinefile=\write3
-\openout3 = `usage_of_simulators_in_5G_6G.out'.
+\openout3 = `usage_of_simulators_in_5G_6G_highlighted.out'.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1046,7 +1047,7 @@ array>); ignored.
 >] [4] <testbed2.pdf, id=207, 877.35776pt x 405.43468pt>
 File: testbed2.pdf Graphic file (type pdf)
  <use testbed2.pdf>
-Package pdftex.def Info: testbed2.pdf used on input line 170.
+Package pdftex.def Info: testbed2.pdf used on input line 171.
 (pdftex.def)             Requested size: 252.0pt x 116.44711pt.
 
 [5 <./testbed2.pdf
@@ -1059,57 +1060,58 @@ File: throughput_evolution_komondor.png Graphic file (type png)
 
 <use throughput_evolution_komondor.png>
 Package pdftex.def Info: throughput_evolution_komondor.png used on input line 1
-86.
+87.
 (pdftex.def)             Requested size: 201.60077pt x 144.31038pt.
 
 <test_sim_time_vs_accuracy.png, id=285, 513.96014pt x 237.88875pt>
 File: test_sim_time_vs_accuracy.png Graphic file (type png)
 
 <use test_sim_time_vs_accuracy.png>
-Package pdftex.def Info: test_sim_time_vs_accuracy.png used on input line 195.
+Package pdftex.def Info: test_sim_time_vs_accuracy.png used on input line 196.
 (pdftex.def)             Requested size: 226.79846pt x 104.97264pt.
 
 <boxplotbps.png, id=287, 457.71pt x 327.26265pt>
 File: boxplotbps.png Graphic file (type png)
  <use boxplotbps.png>
-Package pdftex.def Info: boxplotbps.png used on input line 206.
+Package pdftex.def Info: boxplotbps.png used on input line 207.
 (pdftex.def)             Requested size: 201.60077pt x 144.14581pt.
  [6 <./throughput_evolution_komondor.png (PNG copy)> <./test_sim_time_vs_accura
 cy.png (PNG copy)> <./boxplotbps.png (PNG copy)>]
-Underfull \hbox (badness 5460) in paragraph at lines 217--218
+Underfull \hbox (badness 5460) in paragraph at lines 218--219
 []\OT1/ptm/m/n/10 This work has been par-tially sup-ported by grants
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 \OT1/ptm/m/n/10 MDM-2015-0502, WIND-MAL PGC2018-099959-B-I00
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 217--218
+Underfull \hbox (badness 2644) in paragraph at lines 218--219
 \OT1/ptm/m/n/10 project (RTI2018-095438-A-I00) funded by the Span-ish
  []
 
-(./usage_of_simulators_in_5G_6G.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+(./usage_of_simulators_in_5G_6G_highlighted.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
- (./usage_of_simulators_in_5G_6G.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
-Package rerunfilecheck Info: File `usage_of_simulators_in_5G_6G.out' has not ch
-anged.
-(rerunfilecheck)             Checksum: 92E2E43E0DC15195EB365B81D0D702D6;1370.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+
+(./usage_of_simulators_in_5G_6G_highlighted.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package rerunfilecheck Info: File `usage_of_simulators_in_5G_6G_highlighted.out
+' has not changed.
+(rerunfilecheck)             Checksum: C91200499F13BFCB738ECC19D4898540;1374.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 9722 strings out of 493014
- 145778 string characters out of 6133351
- 245672 words of memory out of 5000000
- 13045 multiletter control sequences out of 15000+600000
+ 9721 strings out of 493014
+ 145950 string characters out of 6133351
+ 244763 words of memory out of 5000000
+ 13044 multiletter control sequences out of 15000+600000
  44822 words of font info for 91 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 42i,8n,40p,1167b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,1305b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
@@ -1117,7 +1119,8 @@ e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on usage_of_simulators_in_5G_6G.pdf (7 pages, 1289127 bytes).
+Output written on usage_of_simulators_in_5G_6G_highlighted.pdf (7 pages, 129221
+3 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  288 compressed objects within 3 object streams

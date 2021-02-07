@@ -1,13 +1,13 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Reliable Artificial Intelligence for Communications}{}% 2
+\BOOKMARK [1][-]{section.2}{Reliability of Artificial Intelligence for Communications}{}% 2
 \BOOKMARK [1][-]{section.3}{Network Simulators to Enable Artificial Intelligence in Communications}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Architectural Integration}{section.3}% 4
 \BOOKMARK [2][-]{subsection.3.2}{Practical Integration Aspects}{section.3}% 5
 \BOOKMARK [2][-]{subsection.3.3}{Accuracy of Network Simulators}{section.3}% 6
-\BOOKMARK [1][-]{section.4}{A Use-case: Power Control in Residential WLANs}{}% 7
+\BOOKMARK [1][-]{section.4}{Use-case: Power Control in Residential WLANs}{}% 7
 \BOOKMARK [2][-]{subsection.4.1}{From Testbed to Simulation Domain}{section.4}% 8
 \BOOKMARK [2][-]{subsection.4.2}{Machine-Learning-based Transmit Power Control}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Testbed Results}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Testbed results}{section.4}% 10
 \BOOKMARK [1][-]{section.5}{Concluding Remarks}{}% 11
 \BOOKMARK [1][-]{section*.7}{References}{}% 12
 \BOOKMARK [1][-]{IEEEbiography.0}{Biographies}{}% 13

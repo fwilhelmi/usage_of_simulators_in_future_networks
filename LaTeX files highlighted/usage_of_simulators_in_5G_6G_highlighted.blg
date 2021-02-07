@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: usage_of_simulators_in_5G_6G_highlighted.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bibliography.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in 3gpp2019study
+Warning--empty journal in ITU3172
+Warning--empty journal in ITU3174
+Warning--empty journal in ETSI
+
+Done.
+You've used 15 entries,
+            4087 wiz_defined-function locations,
+            902 strings with 9398 characters,
+and the built_in function-call counts, 10345 in all, are:
+= -- 879
+> -- 147
+< -- 108
++ -- 94
+- -- 16
+* -- 470
+:= -- 1625
+add.period$ -- 30
+call.type$ -- 15
+change.case$ -- 14
+chr.to.int$ -- 246
+cite$ -- 19
+duplicate$ -- 744
+empty$ -- 816
+format.name$ -- 17
+if$ -- 2389
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 106
+newline$ -- 68
+num.names$ -- 15
+pop$ -- 202
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 824
+stack$ -- 0
+substring$ -- 588
+swap$ -- 610
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 15
+warning$ -- 4
+while$ -- 55
+width$ -- 17
+write$ -- 163
+(There were 4 warnings)
